@@ -54,8 +54,8 @@ def send_email(to_email: str, subject: str, body: str, image: str | None = None)
         print("Sent email.")
 
 def main():
-    message: str = "Hello my love, this is a test email sent from my python program."
-    send_email(to_email="peacefulvictory2002@gmail.com",
+    message: str = "enter_message_here
+    send_email(to_email="enter_to_email_here",
                subject="Testing",
                body=message)
 
